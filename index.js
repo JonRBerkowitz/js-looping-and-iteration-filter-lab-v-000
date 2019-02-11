@@ -8,6 +8,6 @@ function fuzzyMatch(array, string) {
 
 }
 
-function MatchName(array, string) {
+function matchName(array, string) {
   return array.filter(function(name) {return name === string; });
 }
