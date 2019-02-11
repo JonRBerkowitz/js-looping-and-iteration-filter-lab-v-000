@@ -5,7 +5,7 @@ function findMatching(array, string) {
 }
 
 function fuzzyMatch(array, letters) {
-  return array.filter(function(string) {return letters === string.slice(0,1); });
+  return array.filter(function(string) {return letters === string.slice(0,2); });
 }
 
 function matchName(array, string) {
